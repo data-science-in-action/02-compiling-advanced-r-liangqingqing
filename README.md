@@ -57,14 +57,14 @@ solution: First,I removed the "RCPP",then continuing these steps.
 4.Warning message:
           In system(cmd) : 'make' not found
           Quitting from lines 77-84 (Rcpp.Rmd)
-solution:I download Rtools.Then I added `C:\Rtools\bin\` to the path of the environment variable of the computer system, but the error still occurred, so I reinstalled `Rtools` 
+solution:I download Rtools.Then I added C:\Rtools\bin\ to the path of the environment variable of the computer system, but the error still occurred, so I reinstalled Rtools 
       and successfully solved this problem.
 
 5.Missing Packages：
 solution:Most of the warnings are about packages missing. The packages I installed during the process are glue, lubridate, purr, DBI, RSQLite, zeallot, Rcpp, tinytex, dbplyr, profris ,bench etc.
 
 6.xelatex.exe GUI framework cannot be initiallized or xelatex not found
-solution:I download the [MiKTeX] from the internet .Then I clicked the setting in the [MiKTeX],which choosing the item of "always install..."
+solution:I download the MiKTeX from the internet .Then I clicked the setting in the MiKTeX,which choosing the item of 'always install...'
 
 7.Error: Package fontspec Error: The font "Inconsolata" cannot be found
 solution:I downloaded the font 'Inconsolate' from the internet, and put it to C:\Windows\Fonts.
